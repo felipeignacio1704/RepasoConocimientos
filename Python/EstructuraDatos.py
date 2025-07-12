@@ -57,3 +57,4 @@ cuadrados = [x ** 2 for x in numeros if x % 2 == 0]
 print(cuadrados)  # Imprime [4, 16]
 
 # En este ejemplo, se crea una nueva lista llamada cuadrados, que contiene los cuadrados de los números pares de la lista numeros. La expresión x ** 2 eleva cada elemento al cuadrado, y la condición if x % 2 == 0 filtra solo los números pares.
+

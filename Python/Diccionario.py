@@ -19,8 +19,11 @@ print(persona["ciudad"])  # Imprime "Madrid"
 # items(): devuelve una vista de todos los pares clave-valor del diccionario.
 # update(otro_diccionario): actualiza el diccionario con los pares clave-valor de otro diccionario.
 
-persona = {"nombre": "Juan", "edad": 25, "ciudad": "Madrid"}
-
+persona = {
+    "nombre": "Juan",
+    "edad": 25,
+    "ciudad": "Madrid"
+    }
 
 print(persona.keys())    # Imprime dict_keys(["nombre", "edad", "ciudad"])
 print(persona.values())  # Imprime dict_values(["Juan", 25, "Madrid"])
